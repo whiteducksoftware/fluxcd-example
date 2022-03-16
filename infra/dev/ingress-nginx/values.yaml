@@ -11,4 +11,8 @@ spec:
         kind: HelmRepository
         name: ingress-nginx
         namespace: ingress-nginx
-
+  values:
+    # Source: https://github.com/kubernetes/ingress-nginx/blob/main/charts/ingress-nginx/values.yaml
+    controller:
+      service:
+        loadBalancerIP: "51.137.116.61"
