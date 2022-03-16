@@ -17,4 +17,4 @@ spec:
       service:
         annotations:
           service.beta.kubernetes.io/azure-load-balancer-resource-group: "rg-meetup-dev"
-        loadBalancerIP: "51.137.116.61"
+        loadBalancerIP: "20.86.185.90"
