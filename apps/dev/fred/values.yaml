@@ -16,7 +16,7 @@ spec:
         namespace: flux-system
   values:
     image:
-      tag: fred-pirate
+      tag: fred-easter
       # Available tags:
       # fred
       # frida
